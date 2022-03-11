@@ -1,0 +1,14 @@
+server:
+  port: 3000
+
+
+# developers.kakao에서 Application 등록 이후 REST API 키와, RedirectURL이 필요합니다. 아래에 넣어주세요.
+kakao:
+  authUrl: https://kauth.kakao.com/oauth/token
+  userApiUrl: https://kapi.kakao.com/v2/user/me
+  restapiKey: 여기에 RESTAPI KEY를 입력해주세요.
+  redirectUrl: 여기에 redirectUrl을 입력해주세요.
+
+logging:
+  level:
+    com.example.kakaologin: debug
